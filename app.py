@@ -160,6 +160,8 @@ if page == 'Predictor':
         'DailyRate': [daily_rate],
         'DistanceFromHome': [distance],
         'Education': [education],
+        'HourlyRate': [hourly_rate],
+        'MonthlyRate': [monthly_rate],
         'EnvironmentSatisfaction': [environment],
         'JobInvolvement': [job_involvement],
         'JobLevel': [job_level],
