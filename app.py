@@ -92,6 +92,8 @@ if page == 'Predictor':
     # Inputs
     age = st.number_input('Age', 18, 60, 30)
     daily_rate = st.number_input('Daily Rate', 100, 1500, 800)
+    hourly_rate = st.number_input('Hourly Rate', 30, 100, 60)
+    monthly_rate = st.number_input('Monthly Rate', 1000, 30000, 15000)
     distance = st.number_input('Distance From Home', 1, 30, 5)
     education = st.selectbox('Education', [1, 2, 3, 4, 5])
 
