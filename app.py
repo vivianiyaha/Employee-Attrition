@@ -190,6 +190,8 @@ if page == 'Predictor':
 
 
     # Predict
+    # Align input with training data
+    input_data = input_data.reindex(columns=X.columns, fill_value=0)
     if st.button('Predict'):
         prediction = predict_attrition(input_data)
 
