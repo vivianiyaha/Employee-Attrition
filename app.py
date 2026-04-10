@@ -158,10 +158,10 @@ if page == 'Predictor':
     input_data = pd.DataFrame({
         'Age': [age],
         'DailyRate': [daily_rate],
-        'DistanceFromHome': [distance],
-        'Education': [education],
         'HourlyRate': [hourly_rate],
         'MonthlyRate': [monthly_rate],
+        'DistanceFromHome': [distance],
+        'Education': [education],
         'EnvironmentSatisfaction': [environment],
         'JobInvolvement': [job_involvement],
         'JobLevel': [job_level],
