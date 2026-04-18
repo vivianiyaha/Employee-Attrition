@@ -9,6 +9,11 @@ from sklearn.metrics import accuracy_score
 # Load dataset
 df = pd.read_csv('employee-attrition.csv')
 
+# Save as PKL
+df.to_pickle('employee-attrition.pkl')
+
+print("Conversion successful!")
+
 
 # Encode categorical variables
 df['Attrition'] = df['Attrition'].map({'Yes': 1, 'No': 0})
